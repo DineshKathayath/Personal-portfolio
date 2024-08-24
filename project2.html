@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Kathayath's Portfolio - Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #f4f4f4;
+            animation: titleAnimation 2s ease-in-out infinite;
+        }
+
+        @keyframes titleAnimation {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.5;
+                transform: scale(1.1);
+            }
+        }
+
+        .projects-section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        .projects-section .project-category {
+            margin-bottom: 40px;
+        }
+
+        .projects-section .project-category h2 {
+            font-size: 2rem;
+            color: #ff6347;
+            margin-bottom: 20px;
+            animation: fadeInText 2s ease-in-out;
+        }
+
+        .projects-section .project-category .project-item {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #333;
+            border-radius: 8px;
+            animation: zoomIn 1s ease-in-out;
+        }
+
+        .projects-section .project-category .project-item h3 {
+            font-size: 1.5rem;
+            color: #ff6347;
+            margin-bottom: 10px;
+            animation: projectTitleAnimation 2s ease-in-out infinite;
+        }
+
+        @keyframes projectTitleAnimation {
+            0%, 100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            50% {
+                opacity: 0.7;
+                transform: translateX(10px);
+            }
+        }
+
+        .projects-section .project-category .project-item p {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            animation: fadeInText 2s ease-in-out;
+        }
+
+        footer {
+            background-color: rgb(17, 14, 29);
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .footer-links a:hover {
+            color: rgb(104, 69, 69);
+            font-size: 1.1rem;
+        }
+
+        .footer-title {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .footer-copyright {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: white;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInText {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dinesh Kathayath's Portfolio - Projects</h1>
+    </header>
+
+    <section class="projects-section">
+        <div class="project-category">
+            <h2>College Projects</h2>
+            <div class="project-item">
+                <h3>Expense Tracker</h3>
+                <p>An Expense Tracker web application using HTML, CSS, JavaScript, PHP, and DBMS as part of my college project.</p>
+            </div>
+        </div>
+
+        <div class="project-category">
+            <h2>Individual Projects</h2>
+            <div class="project-item">
+                <h3>Personal Portfolio</h3>
+                <p>This is a personal portfolio website showcasing my skills, projects, and contact information.</p>
+            </div>
+            <div class="project-item">
+                <h3>Python Simple Game - Rock Paper Scissors</h3>
+                <p>A simple command-line game built in Python where the user plays Rock Paper Scissors against the computer.</p>
+            </div>
+            <div class="project-item">
+                <h3>Python Simple Game - Snake Water Gun</h3>
+                <p>A Python game similar to Rock Paper Scissors, but with a fun twist using Snake, Water, and Gun as options.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="myportfolio.html">Home</a>
+            <a href="#">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-title">Dinesh Kathayath's Portfolio</div>
+        <div class="footer-copyright">&copy; 2024 Dinesh Kathayath. All rights reserved.</div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Kathayath's Portfolio</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #f4f4f4;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .contact-section {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #ff6347;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .contact-links a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            background-color: #333;
+            padding: 15px;
+            border-radius: 50%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .contact-links a:hover {
+            transform: scale(1.2);
+            background-color: #ff6347;
+        }
+
+        footer {
+            background-color: rgb(17, 14, 29);
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .footer-links a:hover {
+            color: rgb(104, 69, 69);
+            font-size: 1.1rem;
+        }
+
+        .footer-title {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .footer-copyright {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: white;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dinesh Kathayath's Portfolio</h1>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Connect with me on social media or send a message directly!</p>
+        <div class="contact-links">
+            <a href="+917338108015" target="_blank" title="WhatsApp">
+                <img src="https://img.icons8.com/fluent/48/000000/whatsapp.png" alt="WhatsApp">
+            </a>
+            <a href="+917338108015" target="_blank" title="Call">
+                <img src="https://img.icons8.com/fluent/48/000000/phone.png" alt="Call">
+            </a>
+            <a href="https://www.instagram.com/beingkathayath/" target="_blank" title="Instagram">
+                <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram">
+            </a>
+            <a href="https://x.com/Kathayath10" target="_blank" title="X (Twitter)">
+                <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="X (Twitter)">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="myportfolio.html">Home</a>
+            <a href="project2.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-title">Dinesh Kathayath's Portfolio</div>
+        <div class="footer-copyright">&copy; 202

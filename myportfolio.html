@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Kathayath's Portfolio</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(3, 2, 4);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(12, 5, 18);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            margin: 0 23px;
+        }
+
+        nav ul li a:hover {
+            color: rgb(104, 69, 69);
+            font-size: 1.05rem;
+        }
+
+        li {
+            color: white;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px 0;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(46, 5, 139);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            width: 50%;
+            font-size: 1.5rem;
+            padding-left: 2%;
+            margin: 20px 0;
+        }
+
+        .leftsection .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            color: white;
+            background: rgb(46, 46, 154);
+            border: 1px solid white;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+        }
+
+        .leftsection .btn:hover {
+            background: rgb(70, 70, 200);
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 20px 0;
+            background-color: black;
+        }
+
+        .purple {
+            color: rgb(85, 38, 186);
+        }
+
+        .pink {
+            color: rgb(94, 25, 190);
+        }
+
+        .red {
+            color: rgb(94, 41, 193);
+        }
+
+        #element {
+            color: rgba(242, 44, 44, 0.921);
+        }
+
+        .secondsection {
+            max-width: 92vw;
+            margin: auto;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 110vw;
+            padding-left: -10px;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            color: white;
+        }
+
+        .secondsection .vertical {
+            height: 200px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        
+        }
+
+        .vertical-text {
+            top: 275px;
+            left: 162px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: inherit;
+            top: 30px;
+            color: gray;
+            font: 10px;
+            width: 160px;
+            left: 25px;
+        }
+        .button{
+            padding: 25px;
+
+        }
+        img{
+            width: 350px;
+        }
+
+        footer {
+            background-color: rgb(17, 14, 29);
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .footer-links a:hover {
+            color: rgb(104, 69, 69);
+            font-size: 1.1rem;
+        }
+
+        .footer-title {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .footer-copyright {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Dinesh Kathayath's Portfolio</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about1.html">About</a></li>
+                <li><a href="project2.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, my name is <span class="purple">Dinesh Kathayath</span>
+                <div>Graduated in <span class="pink">BCA</span></div>
+                Affiliated to <span class="red">Mangalore University</span>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="https://github.com/DineshKathayath" class="btn" target="_blank">Visit GitHub Account</a>
+                </div>
+            </div>
+            <div class="rightsection"></div>
+            <img src="https://www.hypemax.com/site-img/banner/software-development.png">
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="about1.html">About</a>
+            <a href="project2.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-title">Dinesh Kathayath's Portfolio</div>
+        <div class="footer-copyright">&copy; 2024 Dinesh Kathayath. All rights reserved.</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['St. Joseph\'s Degree College', 'Somwarpet', 'Kodagu District'],
+            typeSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>

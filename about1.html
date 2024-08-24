@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Kathayath's Portfolio</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #f4f4f4;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .about-section {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        .about-section p {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            color: #ddd;
+        }
+
+        .about-section strong {
+            color: #ff6347;
+        }
+
+        .skills-section {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .skills-table th,
+        .skills-table td {
+            border: 1px solid #ff6347;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .skills-table th {
+            background-color: #ff6347;
+            color: white;
+        }
+
+        .skills-table td {
+            background-color: #333;
+            color: #ddd;
+        }
+
+        footer {
+            background-color: rgb(17, 14, 29);
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .footer-links a:hover {
+            color: rgb(104, 69, 69);
+            font-size: 1.1rem;
+        }
+
+        .footer-title {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .footer-copyright {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: white;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dinesh Kathayath's Portfolio</h1>
+    </header>
+
+    <section class="about-section">
+        <p>Hello! I'm <strong>Dinesh Kathayath</strong>, a recent BCA graduate from <strong>Mangalore University</strong>, with a passion for technology and a drive to continuosly learn and grow in the field. I am proficient in multiple anguages, including <strong>, Kannada, English, and Nepali</strong>, which helps me communicate efficiently in diverse environments.</p>
+        <p>As a <strong>quick thinker</strong>and a strong team player, I excel in <strong> colloborative projects</strong> and enjoy tackling new challenges. I have a solid foundation in computer applications, and i am eager to apply my skills to real-world problems. My interests in video gaming, music and movies also fuel my creativity and problem-solving abilities..</p>
+        <p>I value <strong>honesty and loyalty</strong> in my work and an committed to delivery hgh-quality results. I am excited to embark on my professional journey and contribute to projects that make a meaningful impact.</p>
+    </section>
+
+    <section class="skills-section">
+        <h2>Skills</h2>
+        <table class="skills-table">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Basic to Advance</td>
+                    <td>Experienced in structuring web content effectively.</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Basic to Advance</td>
+                    <td>Capable of designing responsive and visually appealing websites.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Basic to Advance</td>
+                    <td>Adept at creating interactive and dynamic web elements.</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Basic to Advance</td>
+                    <td>Proficient in writing clean and efficient code for various applications.</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Basic to Advance</td>
+                    <td>Skilled in server-side scripting for web development.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="myportfolio.html">Home</a>
+            <a href="project2.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-title">Dinesh Kathayath's Portfolio</div>
+        <div class="footer-copyright">&copy; 2024 Dinesh Kathayath. All rights reserved.</div>
+    </footer>
+</body>
+
+</html>
